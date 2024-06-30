@@ -1,0 +1,88 @@
+body{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.title{
+    text-align: center;
+    color: rgb(114, 244, 88);
+}
+.table{
+    margin: auto;
+    justify-content: center;
+}
+
+#poiseuilleForm{
+
+    text-align: center;
+    color: rgb(114, 244, 88);
+}
+th{
+    font-size: 4.5mm;
+}
+tr{
+    font-size: 4.5mm;
+}
+td{
+    font-size: 4.5mm;
+    text-align: center;
+    align-items: center;
+}
+#flowrate{
+    margin-top: 2vh;
+    font-size: 4.5mm;
+    border-radius: 5vh;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 2.5vh 4vw;
+    background-color: rgba(255, 0, 0, 0.942);
+    color: aliceblue;
+    cursor:pointer;
+}
+#Length{
+    margin-top: 2vh;
+    font-size: 4.5mm;
+    border-radius: 5vh;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 2.5vh 4vw;
+    background-color: rgba(255, 0, 0, 0.89);
+    color: aliceblue;
+    cursor:pointer;
+}
+
+#Pressure-Difference{
+    margin-top: 2vh;
+    font-size: 4.5mm;
+    border-radius: 5vh;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 2.5vh 4vw;
+    background-color: rgba(255, 0, 0, 0.782);
+    color: aliceblue;
+    cursor:pointer;
+}
+#Radius{
+    margin-top: 2vh;
+    font-size: 4.5mm;
+    border-radius: 5vh;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 2.5vh 4vw;
+    background-color: rgba(255, 0, 0, 0.703);
+    color: aliceblue;
+    cursor:pointer;
+}
+#Viscosity{
+    margin-top: 2vh;
+    font-size: 4.5mm;
+    border-radius: 5vh;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 2.5vh 4vw;
+    background-color: rgba(255, 0, 0, 0.695);
+    color: aliceblue;
+    cursor:pointer;
+}
+
+
+
+

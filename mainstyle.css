@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+#text-main{
+    font-size: 5vmax;
+    text-align: center;
+    color: rgb(114, 244, 88);
+}
+#button{
+    display: flex;
+    justify-content: space-around;
+
+}
+#Poiseuille-button{
+    font-size: 4.5mm;
+    border-radius: 5vh;
+    border: 1.5px solid yellowgreen;
+    margin-right: 2.5vw;
+    padding: 2.5vh 4vw;
+    background-color: rgb(238, 57, 57);
+    color: aliceblue;
+    cursor:pointer;
+}
+#Surface-button{
+    font-size: 4.5mm;
+    border-radius: 5vh;
+    border: 1.5px solid yellowgreen;
+    margin-left: 2.5vw;
+    padding: 2.5vh 4vw;
+    color: aqua;
+    background-color: blue;
+    cursor:pointer;
+}
