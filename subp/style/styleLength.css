@@ -62,13 +62,14 @@ button{
     margin-left: 0;
     
 }
-#length{
+#flowrate{
     width: 15vi;
     height: 5vh;
     margin-left: 0;
     
 }
 #result{
-    font-size: 1vmax;
+    font-size: 3vmax;
     color: rgb(114, 244, 88);
+    
 }

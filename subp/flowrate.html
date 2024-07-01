@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowrate</title>
     <script src="js/scriptflowrate.js"></script>
-    <link rel="stylesheet" href="style/stlyeFloerate.css">
+    <link rel="stylesheet" href="style/styleFloerate.css">
 </head>
 <body>
     <div class="table">
-        <form id="poiseuilleForm">
+        <form onsubmit="calculateFlowRate(event)" id="poiseuilleForm">
             <table >
                 <tr>
-                    <td ><h1 class="title">Flow rate =  </td>
+                    <td ><h1 class="title">Flow rate(m³/s) =  </td>
                         <td><h1 id="result">?</h1></td>
                     
                 </tr>
